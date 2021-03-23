@@ -1,0 +1,15 @@
+/* 改变主题色变量 */
+$--color-primary: #E86487;
+
+/* 改变 icon 字体路径变量，必需 */
+// $--font-path: 'node_modules/element-plus/lib/theme-chalk/fonts';
+
+/* 引入全部默认样式 会引入没用到的组件样式 */
+// @import "node_modules/element-plus/packages/theme-chalk/src/index";
+
+
+/* 按需引入用到的组件的scss文件和基础scss文件 */
+
+// @import 'node_modules/element-plus/packages/theme-chalk/src/base.scss';
+// @import 'node_modules/element-plus/packages/theme-chalk/src/rate.scss';
+@import 'node_modules/element-plus/packages/theme-chalk/src/button.scss';
